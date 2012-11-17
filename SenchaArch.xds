@@ -1,0 +1,85 @@
+{
+    "name": "SenchaArch",
+    "settings": {
+        "urlPrefix": "http://kersailtest/SenchaArch3",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "0942a42a-2880-4730-936d-3b1881db854b": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "1ec01738-aff5-417d-ba7c-86e3d41fec93": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "24ab657b-30ac-4484-b3cd-ab0857c581d5": {
+            "paths": [
+                "metadata/view/MyPanel1",
+                "app/view/override/MyPanel1.js",
+                "app/view/MyPanel1.js"
+            ],
+            "className": "MyPanel1"
+        },
+        "a9145e29-654d-4204-b17f-ae53b650f6fb": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "7c8c85cc-a1ae-4ed6-bdcb-d7d065c61d0d": {
+            "paths": [
+                "metadata/resource/js1"
+            ],
+            "className": "js1"
+        },
+        "672c1329-6ba7-4bf7-9deb-69848f33bdf0": {
+            "paths": [
+                "metadata/resource/js2"
+            ],
+            "className": "js2"
+        },
+        "e011d09b-cd0d-47fc-ae8d-f417f857b320": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "1ec01738-aff5-417d-ba7c-86e3d41fec93",
+            "24ab657b-30ac-4484-b3cd-ab0857c581d5"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "0942a42a-2880-4730-936d-3b1881db854b",
+            "a9145e29-654d-4204-b17f-ae53b650f6fb",
+            "7c8c85cc-a1ae-4ed6-bdcb-d7d065c61d0d",
+            "672c1329-6ba7-4bf7-9deb-69848f33bdf0",
+            "e011d09b-cd0d-47fc-ae8d-f417f857b320"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
