@@ -180,7 +180,6 @@ Ext.define('Ext.ux.LeafletMap', {
 
 
     doResize: function () {
-    	debugger;
         var ll = window.L,
             map = this.getMap();
 
@@ -193,7 +192,6 @@ Ext.define('Ext.ux.LeafletMap', {
      onRender: function() {
         this.callParent(arguments); // call the superclass onRender method
 		var renderTo = arguments[0].dom.id;
-    	debugger;
         var me = this,
             ll = window.L,
             element = me.mapContainer,
