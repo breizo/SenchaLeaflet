@@ -1,0 +1,10 @@
+SenchaLeaflet is a project based on the excellent work of Jürg Hunziker (https://github.com/tschortsch/Ext.ux.LeafletMap) 
+It focused on offering Leaflet functionality into the ExtJS - Sencha 4 framework in the non-mobile browser. 
+
+References : 
+https://github.com/tschortsch/Ext.ux.LeafletMap
+http://www.sencha.com
+
+=============================
+Change Notes:
+=============================
